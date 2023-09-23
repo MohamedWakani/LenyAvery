@@ -1,0 +1,349 @@
+*{
+    margin: 0px;
+    padding: 0%;
+    font-family:monospace;
+}
+  html, body {
+            scroll-behavior: smooth;
+        }
+.header{
+    margin: 1%;
+}
+.nav{
+    display: flex;
+}
+.nav-item{
+    margin-left: 1150px;
+}
+.nav-item a{
+    text-decoration: none;
+    color: rgb(122, 122, 122);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.nav-item a:hover{
+    color: rgb(247, 192, 110);
+    letter-spacing: 1.5px;
+    transition: .5s;
+}
+.logo-header {
+    font-size: 25px;
+    font-weight: bold;
+    color: #333; 
+  }
+.logo-header span{
+    color: rgb(247, 192, 110);
+}
+.all-product{
+    display: flex;
+}
+.img-product{
+    width: 200%;
+}
+.img-product img{
+    width: 100%;
+    border-radius: 12px ;
+}
+.product{
+    margin-top: 60px;
+}
+.product .name{
+    font-size: 45px;
+}
+.product .paragraph p{
+    color: #7e7d7d;
+    font-size: 22px;
+}
+.product .button{
+    margin-top: 20px;
+}
+.btn{
+    width: 150px;
+    height: 50px;
+    border-radius: 25px;
+}
+.btn1{
+    background-color:rgb(241, 160, 39) ;
+    color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+.product .button .btn2{
+    background-color:white ;
+    color: rgb(241, 160, 39);
+    border:2px solid rgb(241, 160, 39);
+    font-size: 16px;
+    cursor: pointer;
+    transition: .5s;
+
+}
+.product .button .btn2:hover{
+    background-color:rgb(241, 160, 39) ;
+    color: white;
+    border: none;
+}
+.product .cmd {
+    margin-top: 40px;
+    display: flex;
+    width: 75%;
+    
+}
+.product .cmd .pro img{
+    width: 50px;
+}
+.product .cmd .pro .profil-name{
+    margin-left: 15px;
+    
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.pro-talk{
+    background-color: #bebbbb44;
+    border-radius: 12px;
+    padding-top: 10px;
+    font-size: 15px;
+    color: #7e7d7d;
+    margin-left: 10px;
+    padding-left: 5px;
+}
+.section{
+    margin-top: 150px;
+    background-color: #c4c1c12f;
+    padding: 50px 50px 50px 50px;
+    border-radius: 8px;
+}
+.header-section{
+    text-align: center;
+    font-size: 36px;
+}
+
+.section .desc{
+    text-align: center;
+    width: 50%;
+    margin-left: 325px;
+    margin-top: 25px;
+}
+.section .desc{
+    color: #7e7d7d;
+    font-size: 17px;
+}
+.imformations{
+    margin-top: 30px;
+}
+.imformations .title{
+    font-size: 22px;
+}
+.imformations .title span{
+    color:  rgb(245, 173, 65);
+    font-size: 25px;
+}
+.imformations .text-info{
+    font-size: 15px;
+}
+.main{
+    margin-top: 150px;
+}
+.all-main{
+    display: flex;
+    margin-left: 60px;
+}
+.all-main .main-how{
+    margin-top: 40px;
+}
+.all-main .main-how ol li{
+    font-size: 15px;
+    margin-top: 13px;
+}
+.btn3{
+    background-color:rgb(241, 160, 39) ;
+    color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 40px;
+    margin-left: 650px;
+}
+.btn3:hover{
+    background-color:white ;
+    color: rgb(241, 160, 39);
+    border:2px solid rgb(241, 160, 39);
+    font-size: 16px;
+    cursor: pointer;
+    transition: .5s;
+}
+.buy{
+    padding-top: 10px;
+    margin-top: 150px;
+    text-align: center;
+    background-color:  #c4c1c12f;
+    width: 800px;
+    margin-left: 300px;
+    border-radius: 12px;
+}
+.buy .desc{
+    color: #7e7d7d;
+    font-size: 17px;
+}
+.buy label{
+    font-size: 18px;
+    color:rgb(247, 165, 42) ;
+}
+.buy input{
+    width: 500px;
+    height: 40px;
+    border: none;
+    border-radius: 12px;
+    padding-left: 5px;
+    margin-top: 10px;
+}
+.btn4{
+    background-color:rgb(241, 160, 39) ;
+    color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+.btn4:hover{
+    background-color:white ;
+    color: rgb(241, 160, 39);
+    border:2px solid rgb(241, 160, 39);
+    font-size: 16px;
+    cursor: pointer;
+    transition: .5s;
+}
+.error-message {
+    background-color: #f8d7da;
+    color: #721c24;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #f5c6cb;
+    border-radius: 4px;
+}
+
+.error-message ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.error-message li {
+    margin: 0;
+    padding: 0;
+}
+.about{
+    margin-top: 180px;
+    padding-top: 40px;
+    background-color: rgb(241, 160, 39);
+    margin-left: none;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+}
+.about .img-about{
+    text-align: center;
+}
+.about .img-about img{
+    width: 120px;
+}
+.about .title-about h1{
+    color: white;
+}
+.about .para-about{
+    width: 50%;
+    margin-left: 360px;
+    margin-top: 30px;
+}
+.about .para-about p{
+    font-size: 17px;
+    color: white;
+}
+.about h3{
+    color: rgb(101, 101, 101);
+    font-size: 22px;
+    text-align: center;
+    margin-top: 20px;
+}
+.about .icons{
+    text-align: center;
+    margin: 5px;
+}
+.about .icons a{
+    color: white;
+    background-color: #3333333f;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 5px;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 0;
+}
+
+.footer-content p {
+    margin: 0;
+    font-size: 14px;
+}
+
+@media screen and (max-width: 767px) {
+    body{
+        width: 500px;
+    }
+  .nav-item{
+    margin-left: 250px;
+    margin-top: 10px;
+  }
+  .all-product{
+    display:block;
+    margin-left: 8px;
+  }
+  .all-product .cmd{
+    display: none;
+  }
+  .desc p{
+    display: none;
+  }
+
+  .all-main .main-img{
+    display: none;
+  }
+  .all-main .main-how{
+    width: 300px;
+    margin-left: 50px;
+  }
+  .btn3{
+    margin-left: 60px;
+  }
+  .buy{
+    text-align: left;
+    margin-left: 17px;
+    width: 460px;
+
+  }
+  .buy input{
+    width: 90%;
+    margin-left: 20px;
+  }
+  .buy label{
+    margin-left: 20px;
+
+  }.buy .desc{
+    margin-left: 15px;
+  }
+  .btn4{
+    margin-left: 150px;
+  }
+  .about .para-about{
+    width: 85%;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.img-product{
+    width: 100%;
+}
+  }
+  
